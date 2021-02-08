@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Wellington",
+    "Business": "Pho Shack"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.730976, 45.400094],
+      [-75.72913, 45.400778]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Spruce",
+    "Business": "WheelHouse"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.717389, 45.40821],
+      [-75.714586, 45.409051]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Preston",
+    "Business": "Plant and Curio"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.71419, 45.408385],
+      [-75.71315, 45.406657]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Elgin",
+    "Business": "Fox and Feather"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.690385, 45.41785],
+      [-75.689239, 45.416558]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Bank ",
+    "Business": "Morning Owl"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.700283, 45.419947],
+      [-75.699094, 45.418538]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Queen",
+    "Business": "Blurry Pixel"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.700804, 45.420567],
+      [-75.698836, 45.421402]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Rideau",
+    "Business": "Highlander Pub"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.692886, 45.425713],
+      [-75.691047, 45.426491]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Byward Market",
+    "Business": "Continental Bagel Co."
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.693024, 45.428032],
+      [-75.692111, 45.426981]
+    ],
+    "type": "LineString"
+  }
+}
+
+{
+  "type": "Feature",
+  "properties": {
+    "Street": "Dalhousie",
+    "Business": "Texture Hair Salon"
+  },
+  "geometry": {
+    "coordinates": [
+      [-75.692283, 45.43025],
+      [-75.691748, 45.429616]
+    ],
+    "type": "LineString"
+  }
+}
