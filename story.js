@@ -12,7 +12,7 @@ var config = {
         {
             id: 'slug-style-id',
             title: 'Highlander Pub',
-            image: './path/to/image/source.png',
+            //image: './path/to/image/source.png',
             description: 'A well known pub on Rideau St.',
             location: {
                 center: [-75.69134, 45.42669],
@@ -36,7 +36,7 @@ var config = {
         {
             id: 'other-identifier',
             title: 'Second Title',
-            image: './path/to/image/source.png',
+            //image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-77.020636, 38.886900],
@@ -50,7 +50,7 @@ var config = {
         {
             id: 'other-identifier',
             title: 'Wheelhouse Warehouse',
-            image: './path/to/image/source.png',
+            //image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {
                 center: [-75.716660, 45.408750],
