@@ -47,7 +47,7 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }
-        
+        {
             id: 'other-identifier',
             title: 'Wheelhouse Warehouse',
             image: './path/to/image/source.png',
@@ -60,5 +60,6 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
+            }
     ]
 };
