@@ -46,7 +46,7 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
-        }
+        },
         {
             id: 'other-identifier',
             title: 'Wheelhouse Warehouse',
@@ -60,6 +60,5 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
-            }
-    ]
+          }
 };
