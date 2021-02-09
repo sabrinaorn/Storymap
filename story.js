@@ -77,10 +77,7 @@ var config = {
             onChapterExit: []
 
           }
-        
-        ]
-        };
-{
+          {
           id: 'Temporary_Closures',
           title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
           image: '.img/download.png',
@@ -101,3 +98,7 @@ var config = {
           onChapterEnter: [],
           onChapterExit: []
 }
+        
+        ]
+        };
+
