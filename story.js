@@ -47,5 +47,18 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         }
+        
+            id: 'other-identifier',
+            title: 'Wheelhouse Warehouse',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {
+                center: [-75.716660, 45.408750],
+                zoom: 13.5,
+                pitch: 60,
+                bearing: -43.2
+            },
+            onChapterEnter: [],
+            onChapterExit: []
     ]
 };
