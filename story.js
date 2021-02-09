@@ -32,7 +32,7 @@ var config = {
                 //     opacity: 0
                 // }
             ]
-        },
+          },
         {
             id: 'other-identifier',
             title: 'Second Title',
@@ -60,5 +60,7 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
+
           }
-};
+        ]
+        };
