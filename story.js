@@ -5,10 +5,25 @@ var config = {
     theme: 'light',
     alignment: 'left',
     title: 'Business Closures in Ottawa due to COVID-19',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
-    footer: 'Source: source citations, etc.',
+    subtitle: 'The Covid-19 Pandemic has had catastrophic impacts on many. Here, we will be telling the story of how the pandemic has affected local businesses in Ottawa.',
+    byline: 'Rajpal Dhaliwal, Olivia Hobbs, RJ Mitchell, Sabrina Ornawka',
+    footer: 'GEOM 4001',
     chapters: [
+
+      {
+          id: 'intro-identifier',
+          title: 'How the Virus has Affected Businesses',
+          //image: './path/to/image/source.png',
+          description: 'Mandatory closures of businesses including restaurants has meant that businesses may struggle to keep afloat during and after the pandemic. The following will highlight some of those stories.',
+          location: {
+              center: [-77.020636, 38.886900],
+              zoom: 13.5,
+              pitch: 60,
+              bearing: -43.2
+          },
+          onChapterEnter: [],
+          onChapterExit: []
+      },
         {
             id: 'slug-style-id',
             title: 'Highlander Pub',
@@ -33,20 +48,7 @@ var config = {
                 // }
             ]
           },
-        {
-            id: 'other-identifier',
-            title: 'Second Title',
-            //image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
-            location: {
-                center: [-77.020636, 38.886900],
-                zoom: 13.5,
-                pitch: 60,
-                bearing: -43.2
-            },
-            onChapterEnter: [],
-            onChapterExit: []
-        },
+
         {
             id: 'other-identifier',
             title: 'Wheelhouse Warehouse',
@@ -78,12 +80,13 @@ var config = {
             onChapterExit: []
           },
 
-          {
+/*            {
               id: 'Temporary_Closures',
               title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
               image: '.img/download.png',
               description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were:',
-              <ul>
+
+            <ul>
               <li> Deacon Brodies </li>
               <li> St Louis Bar and Grill</li>
               <li> Elgin Beer Project</li>
@@ -99,6 +102,6 @@ var config = {
               onChapterEnter: [],
               onChapterExit: []
             }
-
+*/
         ]
         };
