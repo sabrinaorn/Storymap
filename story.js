@@ -50,23 +50,26 @@ var config = {
           },
 
         {
-            id: 'other-identifier',
+            id: 'olivia_1',
             title: 'Wheelhouse Warehouse',
             //image: './path/to/image/source.png',
             description: 'Wheelhouse is a gym that is based around group indoor cycling class. As a response to the pandemic and provincial measures regarding the gyms and exercise class Wheelhouse had to continuously adapt its business model and locations. Prior to the pandemic Wheelhouse had a location on West Wellington and Bank street. Neither of these locations could adapt to the provincial requirements for gyms to open so they opened Wheelhouse at the Warehouse location and permanently closed their doors at the Wellington location.',
-            location: {
+                location: {
                 center: [-75.716660, 45.408750],
                 zoom: 13.5,
                 pitch: 60,
                 bearing: -43.2
             },
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/gbOuZlEk5cQ">
+            </iframe>
             onChapterEnter: [],
             onChapterExit: []
 
           },
 
             {
-            id: 'other-identifier',
+            id: 'olivia_2',
             title: 'Plant and Curio',
             //image: './path/to/image/source.png',
             description: 'Plant and Curio though not permanently closed adapted its business model during the summer-fall months of the pandemic to have outdoors shopping on the patio/steps of their shop. During winter prior to the shutdown they switched models to primarily online to deal with reduced capacity allowed in store.',
