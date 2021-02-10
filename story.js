@@ -4,8 +4,8 @@ var config = {
     showMarkers: true,
     theme: 'light',
     alignment: 'left',
-    title: 'Business Closures in Ottawa due to COVID-19',
-    subtitle: 'The Covid-19 Pandemic has had catastrophic impacts on many. Here, we will be telling the story of how the pandemic has affected local businesses in Ottawa.',
+    title: "Sorry We're Closed.",
+    subtitle: 'Visualizing the Impact of the Covid-19 Pandemic on Businesses in Ottawa',
     byline: 'Rajpal Dhaliwal, Olivia Hobbs, RJ Mitchell, Sabrina Ornawka',
     footer: 'GEOM 4001',
     chapters: [
@@ -13,7 +13,7 @@ var config = {
       {
           id: 'intro-identifier',
           title: 'How the Virus has Affected Businesses',
-          //image: './path/to/image/source.png',
+          image: 'C:/Users/sabri/Documents/Fourth Year Work/Internet GEOM 4001/Assignment One/Assignement1_Template/images/closed_business.jpg',
           description: 'Mandatory closures of businesses including restaurants has meant that businesses may struggle to keep afloat during and after the pandemic. The following will highlight some of those stories.',
           location: {
               center: [-77.020636, 38.886900],
