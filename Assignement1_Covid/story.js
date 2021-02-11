@@ -84,13 +84,7 @@ var config = {
               id: 'Temporary_Closures',
               title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
               image: '.img/download.png',
-              description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were: Deacon Brodies, Waller Street Brewing, Elgin Beer Project, St Louis Bar and Grill, and Lieutenants Pump. <ul>
-              <li> Deacon Brodies </li>
-              <li> St Louis Bar and Grill</li>
-              <li> Elgin Beer Project</li>
-              <li> Lieutenants Pump</li>
-              <li> Waller Street Brewing</li>
-              </ul>',
+              description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were Deacon Brodies, Waller Street Brewing, Elgin Beer Project, St Louis Bar and Grill, and Lieutenants Pump.',
               location: {
                   center: [-75.68819, 45.41577],
                   zoom: 13.5,
