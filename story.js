@@ -96,6 +96,20 @@ var config = {
               onChapterEnter: [],
               onChapterExit: []
             }
+        {
+          id: 'chart',
+          title: 'Tracking COVID-19 Cases in Ottawa',
+          image: '.img/oph.jpg',
+          description: '<canvas id="myChart" width="400" height="400"></canvas>',
+          location: {
+              center: [-75.69554, 45.42109],
+              zoom: 13.5,
+              pitch: 60,
+              bearing: -43.2
+          },
+          onChapterEnter: [],
+          onChapterExit: []
+}
 
         ]
         };
