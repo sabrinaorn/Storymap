@@ -50,10 +50,10 @@ var config = {
           },
 
         {
-            id: 'olive1',
+            id: 'other-identifier',
             title: 'Wheelhouse Warehouse',
-            image: './Assignment1_Covid/images/wheel.png',
-            description: 'Wheelhouse is a gym that is based around group indoor cycling class. As a response to the pandemic and provincial measures regarding the gyms and exercise class Wheelhouse had to continuously adapt its business model and locations. Prior to the pandemic Wheelhouse had a location on West Wellington and Bank street. Neither of these locations could adapt to the provincial requirements for gyms to open so they opened Wheelhouse at the Warehouse location and permanently closed their doors at the Wellington location. <iframe width="560" height="315" src="https://www.youtube.com/embed/gbOuZlEk5cQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+            //image: './path/to/image/source.png',
+            description: 'Wheelhouse is a gym that is based around group indoor cycling class. As a response to the pandemic and provincial measures regarding the gyms and exercise class Wheelhouse had to continuously adapt its business model and locations. Prior to the pandemic Wheelhouse had a location on West Wellington and Bank street. Neither of these locations could adapt to the provincial requirements for gyms to open so they opened Wheelhouse at the Warehouse location and permanently closed their doors at the Wellington location.',
             location: {
                 center: [-75.716660, 45.408750],
                 zoom: 13.5,
@@ -66,7 +66,7 @@ var config = {
           },
 
             {
-            id: 'olive2',
+            id: 'other-identifier',
             title: 'Plant and Curio',
             //image: './path/to/image/source.png',
             description: 'Plant and Curio though not permanently closed adapted its business model during the summer-fall months of the pandemic to have outdoors shopping on the patio/steps of their shop. During winter prior to the shutdown they switched models to primarily online to deal with reduced capacity allowed in store.',
@@ -84,7 +84,7 @@ var config = {
               id: 'Temporary_Closures',
               title: 'Bar Hopping on Elgin St Leads to Five Temporary Closures',
               image: '.img/download.png',
-              description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were:',
+              description:'Elgin St. saw five temporary closures of bars and restaurants from two individuals who were awaiting their COVID test results. These individuals visted those locations while awaiting their tetst results and when the tests came back positive, the businesses voluntarily closed for two weeks to test their employees to ensure safe operations. It is unknown how much revenue was lost during these closures, however, it is important to note how badly that revenue was needed because of restricted operations. The affected businesses were:
 
             <ul>
               <li> Deacon Brodies </li>
@@ -92,7 +92,7 @@ var config = {
               <li> Elgin Beer Project</li>
               <li> Lieutenants Pump</li>
               <li> Waller Street Brewing</li>
-              </ul>
+              </ul>'
               location: {
                   center: [-75.68819, 45.41577],
                   zoom: 13.5,
@@ -102,6 +102,20 @@ var config = {
               onChapterEnter: [],
               onChapterExit: []
             }
-*/
+*/          {
+          id: 'chart',
+          title: 'Tracking Positive Cases in Ottawa since February 2020',
+          image: '.img/oph.jpg',
+          description: '<canvas id="myChart" width="400" height="400"></canvas>
+',
+          location: {
+              center: [-75.67532, 45.40719],
+              zoom: 13.5,
+              pitch: 60,
+              bearing: -43.2
+          },
+          onChapterEnter: [],
+          onChapterExit: []
+}
         ]
         };
